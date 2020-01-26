@@ -1,0 +1,12 @@
+@keyframes slideInDown {
+	from {top: -320px;}
+	to {top: 180px;}
+}
+.slideInDown {
+	-webkit-animation-name: slideInDown;
+	animation-name: slideInDown;
+	top: 180px;
+  position: fixed;
+	left: 50%;
+	margin-left: -288px;
+}
